@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:background="@drawable/bwelcome">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/activitysignupIV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="150dp"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/nsignuphomeBTN"
+            android:layout_below="@id/activitysignupIV"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:text="HOME"
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/rawusernameET"
+            android:layout_below="@id/nsignuphomeBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:inputType="textShortMessage"
+            android:textColorHint="@color/colorText"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <EditText
+            android:id="@+id/sirnameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sir Name"
+            android:inputType="text"
+            android:textColorHint="@color/colorText"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            tools:ignore="Autofill,HardcodedText"
+            android:layout_below="@+id/rawusernameET"/>
+
+        <EditText
+            android:id="@+id/firstnameET"
+            android:layout_below="@+id/sirnameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:inputType="text"
+            android:textColorHint="@color/colorText"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <EditText
+            android:id="@+id/middlenameET"
+            android:layout_below="@+id/firstnameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Middle Name"
+            android:inputType="text"
+            android:textColorHint="@color/colorText"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <EditText
+            android:id="@+id/lecturerregistrationnumberET"
+            android:layout_below="@+id/middlenameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lecturer Registration Number"
+            android:inputType="text"
+            android:textColorHint="@color/colorText"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <EditText
+            android:id="@+id/nationalidET"
+            android:layout_below="@+id/lecturerregistrationnumberET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="National Id"
+            android:inputType="text"
+            android:textColorHint="@color/colorText"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <EditText
+            android:id="@+id/phonenumberET"
+            android:layout_below="@+id/nationalidET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="@color/colorText"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <EditText
+            android:id="@+id/rawemailaddressET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:layout_below="@+id/phonenumberET"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:textColorHint="@color/colorText"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <EditText
+            android:id="@+id/rawpasswordET"
+            android:layout_below="@+id/rawemailaddressET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="number"
+            android:textColorHint="@color/colorText"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginStart="20sp"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <EditText
+            android:id="@+id/confirmpasswordET"
+            android:layout_below="@+id/rawpasswordET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="number"
+            android:textColorHint="@color/colorText"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <Button
+            android:id="@+id/signupBTN"
+            android:layout_below="@+id/confirmpasswordET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_sign_up"
+            android:layout_marginEnd="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/alreadysignedupTV"
+            android:layout_below="@+id/signupBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="70dp"
+            android:text="Already have an Account Login"
+            android:textSize="18sp"
+            android:textColor="@color/colorText"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewClassesActivity"
+    android:background="@drawable/bwelcome">
+
+    <ImageView
+        android:id="@+id/viewclasseslogoIV"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/applogo"
+        app:srcCompat="@drawable/icon" />
+    <TextView
+        android:id="@+id/viewclassessloganTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewclasseslogoIV"
+        android:text="@string/education_and_training_for_the_real_world"
+        android:textColor="@color/colorText"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/viewclassesbackbtn"
+        android:layout_below="@+id/viewclassessloganTV"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textColor="@color/colorText"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/viewclasseshomeBTN"
+        android:layout_below="@+id/viewclassessloganTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="270dp"/>
+
+</RelativeLayout>

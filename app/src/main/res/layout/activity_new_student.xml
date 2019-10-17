@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewStudentActivity"
+    android:background="@drawable/bwelcome">
+
+    <EditText
+        android:id="@+id/nnewstudentfirstnameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:textSize="20sp"
+        android:textColorHint="@color/colorText"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <EditText
+        android:id="@+id/nnewstudentmiddlenameET"
+        android:layout_below="@id/nnewstudentfirstnameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Middle Name"
+        android:textSize="20dp"
+        android:textColorHint="@color/colorText"/>
+
+    <EditText
+        android:id="@+id/nnewstudentregistrationnumberET"
+        android:layout_below="@id/nnewstudentmiddlenameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Registration Number"
+        android:textSize="20dp"
+        android:textColorHint="@color/colorText"/>
+
+    <EditText
+        android:id="@+id/nnewstudentclasscodeET"
+        android:layout_below="@+id/nnewstudentregistrationnumberET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Class Code"
+        android:textSize="20sp"
+        android:textColorHint="@color/colorText"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/nnewstudentunitscodeET"
+        android:layout_below="@+id/nnewstudentclasscodeET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unit Code"
+        android:textSize="20sp"
+        android:textColorHint="@color/colorText"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/nnewstudentphonenumberET"
+        android:layout_below="@id/nnewstudentunitscodeET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Phone Number"
+        android:textSize="20dp"
+        android:textColorHint="@color/colorText"/>
+
+    <ImageView
+        android:id="@+id/nnewstudentfingerprintidIV"
+        android:layout_below="@id/nnewstudentphonenumberET"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="20dp"
+        android:src="@mipmap/ic_fingerprintid"
+        />
+
+    <Button
+        android:id="@+id/nsubmitBTN"
+        android:layout_below="@+id/nnewstudentfingerprintidIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="140dp" />
+
+</RelativeLayout>

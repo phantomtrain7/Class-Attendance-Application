@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "165196699722",
+    "firebase_url": "https://classattendanceapplicati-c4c3a.firebaseio.com",
+    "project_id": "classattendanceapplicati-c4c3a",
+    "storage_bucket": "classattendanceapplicati-c4c3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165196699722:android:940c1eec2e9cfdbe",
+        "android_client_info": {
+          "package_name": "com.cradle.classattendanceapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165196699722-ag2h7bdhh5388hcvd786bggib84cr04p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cradle.classattendanceapplication",
+            "certificate_hash": "0635c21ac9e7c9d18b94a0f5b4245f187abf7f77"
+          }
+        },
+        {
+          "client_id": "165196699722-vrmni84130dmnv6s9m65716b3l3c8624.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cradle.classattendanceapplication",
+            "certificate_hash": "6b79060fccbf3fad2480c0b499052c3a156f7a0b"
+          }
+        },
+        {
+          "client_id": "165196699722-qhe7hqv36pdp62ine1ntdi0hc803lsl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAslsr0WestBRFpj3bhF4ua8-CzoZ9yu2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165196699722-qhe7hqv36pdp62ine1ntdi0hc803lsl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

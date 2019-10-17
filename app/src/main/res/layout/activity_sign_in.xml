@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+
+    <ImageView
+        android:id="@+id/activitysigninIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icon"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="100dp"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/nsigninhomeBTN"
+        android:layout_below="@id/activitysigninIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:textSize="20dp"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <EditText
+        android:id="@+id/activityphonenumberET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/phone_number"
+        android:inputType="number"
+        android:padding="20dp"
+        android:textColorHint="@color/colorText"
+        tools:ignore="Autofill"
+        android:layout_below="@id/nsigninhomeBTN" />
+
+    <EditText
+        android:id="@+id/activitypasswordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activityphonenumberET"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/password"
+        android:inputType="numberPassword"
+        android:padding="20dp"
+        android:textColorHint="@color/colorText"
+        tools:ignore="Autofill" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout_1"
+        android:layout_width="341dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/activitypasswordET"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="35dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/activitysigninremembermeChkBx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remember_me"/>
+
+        <TextView
+            android:id="@+id/activitysigninforgotpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password"
+            android:layout_marginStart="70dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/activitysigninBTN"
+        android:layout_below="@+id/linear_layout_1"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_sign_in"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/activitycreateaccountTV"
+        android:layout_below="@+id/activitysigninBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="150dp"
+        android:textColor="@color/colorText"/>
+
+</RelativeLayout>

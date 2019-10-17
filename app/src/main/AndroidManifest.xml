@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cradle.classattendanceapplication">
+
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".CreateUnitsActivity"></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".NewStudentActivity" />
+        <activity android:name=".CreateClassesActivity" />
+        <activity android:name=".NewUnitsActivity" />
+        <activity android:name=".ViewUnitsActivity" />
+        <activity android:name=".NewClassesActivity" />
+        <activity android:name=".ViewClassesActivity" />
+        <activity android:name=".TakeAttendanceActivity" />
+        <activity android:name=".ViewAttendanceActivity" />
+        <activity android:name=".ClassesActivity" />
+        <activity android:name=".AttendanceActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

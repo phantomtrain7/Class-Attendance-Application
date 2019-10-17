@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/nActivityProfileProfileDetailsTV"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="80dp"
+        android:text="Your Profile Details"
+        android:textStyle="bold"
+        android:textColor="@color/colorText"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/nActivityProfileRegistrationWorkNumberET"
+        android:layout_below="@+id/nActivityProfileProfileDetailsTV"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
+        android:hint="Registration/Work Number"
+        android:textColorHint="@color/colorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/nActivityProfilePhoneNumberET"
+        android:layout_below="@+id/nActivityProfileRegistrationWorkNumberET"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:hint="Phone Number"
+        android:textColorHint="@color/colorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/nActivityProfileEmailAddressET"
+        android:layout_below="@+id/nActivityProfilePhoneNumberET"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:hint="Email Address"
+        android:textColorHint="@color/colorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/nActivityProfileUpdateBTN"
+        android:layout_below="@+id/nActivityProfileEmailAddressET"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="30dp"
+        android:text="Update"
+        android:textColorHint="@color/colorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/nActivityProfileChangePasswordTV"
+        android:layout_below="@+id/nActivityProfileUpdateBTN"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
+        android:text="Change Password"
+        android:textSize="20sp"
+        android:textColor="@color/colorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/nActivityProfileEnterPasswordET"
+        android:layout_below="@+id/nActivityProfileChangePasswordTV"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:textColorHint="@color/colorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/nActivityProfileConfirmPasswordET"
+        android:layout_below="@+id/nActivityProfileEnterPasswordET"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:hint="Student Registration Number"
+        android:textColorHint="@color/colorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/nActivityProfileChangePasswordBTN"
+        android:layout_below="@+id/nActivityProfileConfirmPasswordET"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="30dp"
+        android:text="Change Password"
+        android:textColor="@color/colorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
